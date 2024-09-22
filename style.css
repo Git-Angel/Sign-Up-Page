@@ -1,0 +1,123 @@
+.body{
+    width: 400px;
+    height: 500px;
+    margin: 0px auto;
+    /*background-color: rgb(236, 9, 9);*/
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 100px;
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+
+*body{
+    background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+}
+
+.sign-up{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input[placeholder]{
+    padding: 10px;
+}
+
+input[type = "text"]{
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid rgba(223, 159, 247, 0.8);
+    margin-left: 35px;
+    height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+input[type = "email"]{
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid rgba(223, 159, 247, 0.8);
+    margin-left: 35px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+input[type = "password"]{
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    border: 2px solid rgba(223, 159, 247, 0.8);
+    margin-left: 35px;
+    height: 25px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+input[type = "button"]:hover{
+    fill: rgba(223, 159, 247, 0.8);
+}
+
+button[type = "button"]:hover{
+    fill: rgba(223, 159, 247, 0.8);
+   
+}
+
+
+input[type = "button"]{
+    border-radius: 10px;
+    width: 324px;
+    margin: 0 auto;
+    border: 2px solid rgba(223, 159, 247, 0.8);
+    margin-left: 35px;
+    height: 50px;
+    cursor: pointer;
+    fill: rgba(171, 40, 219, 0.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/*button[type = "button"]{
+    border-radius: 10px;
+    width: 324px;
+    margin: 0 auto;
+    border: 2px solid rgba(223, 159, 247, 0.8);
+    margin-left: 35px;
+    height: 50px;
+    cursor: pointer;
+    fill: rgba(171, 40, 219, 0.8);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}*/
+
+.already{
+    margin-left: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+hr{
+    width: 100px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.with{
+padding-left: 15px;
+}
+
+
